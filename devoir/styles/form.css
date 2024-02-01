@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    text-align: center;
+}
+form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.item-form {
+    width: 40%;
+}
+.item{
+    margin-top: 5px;
+}
+label {
+    font-size: 16px;
+    font-weight: 700;
+}
+input {
+    width: 100%;
+    padding: 3px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+
+
